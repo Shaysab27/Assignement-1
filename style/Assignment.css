@@ -5,9 +5,9 @@
 .banner{
     background-image: url("../images/banner/banner2.png");
     background-size: cover;
-    background-repeat: none;
+    background-repeat:no-repeat;
     height: 500px;
-    text-align: right;
+    text-align: end;
     padding-top: 100px;
     padding-right: 50px;
 }
@@ -30,6 +30,7 @@ margin-bottom: 20px;
     font-weight: 400;
 font-size: 16px;
 }
+/* failures of previous */
 .section-one{
     display: flex;
     margin: 80px
@@ -73,7 +74,7 @@ li{
     margin: 0 85px;
 }
 
-.items h1{
+.items h3{
     margin-top: 24px;
     font-size: 30px;
     line-height: 35px;
@@ -84,6 +85,9 @@ li{
     line-height: 29px;
     color: #737272;
 }
+
+/* contract list style */
+
 .contract-lis{
     display: flex;
     justify-content: center;
@@ -120,25 +124,64 @@ li{
 .call-btn a{
     text-decoration: none;
     color: #ff5100;
+    /* Footer style */
 }
 footer{
-    background-color: #000000;
-    color: #ffffff;
-    padding: 50px;
-    margin-top: 30px;
+    height: 577px;
+    background: #e8e5e5;
+    margin-top: 130px;
 }
 .footer{
     display: flex;
+    gap: 430px;
+    justify-content: center;
 }
-.footer-left{
-    width: 70%;
+footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-top: 130px;
 }
-.footer-right{
-    width: 30%;
+.footer-items p{
+    width: 485px;
+    color: #ffffff;
+    margin-bottom: 24px;
 }
-.footer-right-text{
-    margin-left: 30px;
-}
-.buttons{
 
+.footer-items img{
+    margin-right: 17px;
+}
+
+.Subscribe h1{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.Subscribe input{
+    margin-top: 31px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 21px;
+    color: #ffffff;
+    background: none;
+}
+
+.Subscribe-btn{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.Subscribe-btn a{
+    text-decoration: none;
+    color: #ffffff;
 }
