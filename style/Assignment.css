@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    background-image: url("../images/banner/banner2.png");
+    background-size: cover;
+    background-repeat: none;
+    height: 500px;
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.banner-btn{
+    background-color: #F15B22;
+    padding: 23px 18px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-btn:hover{background-color: #b97b62;
+    
+}
+.banner h1{
+    font-weight: 700;
+font-size: 65px;
+margin-bottom: 20px;
+}
+.banner p{
+    font-weight: 400;
+font-size: 16px;
+}
