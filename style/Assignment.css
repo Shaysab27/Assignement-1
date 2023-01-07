@@ -54,6 +54,36 @@ font-size: 40px;
 li{
     list-style: "";
 }
+.plan{
+    text-align: center;
+    margin-top: 130px;
+}
+.my-plan{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.items{
+    margin: 0 85px;
+}
+
+.items h1{
+    margin-top: 24px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.items p{
+    margin-top: 16px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
 footer{
     background-color: #000000;
     color: #ffffff;
@@ -61,4 +91,16 @@ footer{
 }
 .footer{
     display: flex;
+}
+.footer-left{
+    width: 70%;
+}
+.footer-right{
+    width: 30%;
+}
+.footer-right-text{
+    margin-left: 30px;
+}
+.buttons{
+
 }
